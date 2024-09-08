@@ -35,6 +35,25 @@ function guestSum3() {
 function newGame() {
     guestResult = 0
     homeResult = 0
+    periodResult = 0
     homeScore.textContent = homeResult
     guestScore.textContent = guestResult
+    periodNum.textContent = periodResult
 }
+
+let periodNum = document.getElementById("period-score")
+let periodResult = 0
+function period() {
+    periodResult += 1
+    periodNum.textContent = periodResult
+}
+
+// function bonus() {
+//     let bonusColor = document.getElementsByClassName("bonus").style.backgroundColor
+//     if (bonusColor.style.backgroundColor = #FEF3C7) {
+//         bonusColor.style.backgroundColor = #F59E0B
+//     }
+//     else {
+//         bonusColor.style.backgroundColor = #FEF3C7
+//     }
+// }

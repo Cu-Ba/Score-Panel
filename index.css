@@ -14,7 +14,7 @@ body {
 .container {
     display: flex;
     justify-content: space-around;
-    margin: 10% auto;
+    margin: 10% auto 30px;
 }
 
 .board {
@@ -28,7 +28,7 @@ body {
 #home-score, #guest-score {
     font-family: CursedTimer;
     font-size: 45px;
-    color: #F43F5E;
+    color: #10B981;
 }
 
 .btn {
@@ -54,3 +54,40 @@ body {
 .title {
     font-size: 26px;
 }
+
+#period-score {
+    margin: 20px auto;
+    background: #080001;
+    color: #F43F5E;
+    height: 80px;
+    width: 60px;
+    align-content: center;
+    font-family: CursedTimer;
+    font-size: 24px;
+}
+
+#period-position {
+    margin-top: 50px;
+}
+
+/* .bonus {
+    margin: 30px auto 10px;
+    border-radius: 5px;
+    border: 2px solid #4B5563;
+    height: 30px;
+    width: 30px;
+}
+
+.bonus::before {
+    background: #FEF3C7;
+}
+.bonus::after {
+    background: #F59E0B;
+}
+
+.bonus-text {
+    margin: 0;
+    text-align: center;
+    color: #F3F4F6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} */
