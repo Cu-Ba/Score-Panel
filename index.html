@@ -10,25 +10,26 @@
                         <h1 id="home-score">0</h1>
                     </div>
                     <div>
-                        <button class="btn" id="home-1">+1</button>
-                        <button class="btn" id="home-2">+2</button>
-                        <button class="btn" id="home-3">+3</button>
+                        <button class="btn" id="home-1" onclick="homeSum1()">+1</button>
+                        <button class="btn" id="home-2" onclick="homeSum2()">+2</button>
+                        <button class="btn" id="home-3" onclick="homeSum3()">+3</button>
                     </div>
             </div>
+           
             <div>
                 <h3 class="title">GUEST</h3>
                     <div class="board">
                         <h1 id="guest-score">0</h1>
                     </div>
                     <div>
-                        <button class="btn" id="guest-1">+1</button>
-                        <button class="btn" id="guest-2">+2</button>
-                        <button class="btn" id="guest-3">+3</button>
+                        <button class="btn" id="guest-1" onclick="guestSum1()">+1</button>
+                        <button class="btn" id="guest-2" onclick="guestSum2()">+2</button>
+                        <button class="btn" id="guest-3" onclick="guestSum3()">+3</button>
                     </div>
             </div>
         </div>
         <div>
-            <button class="btn" id="new-game">New Game</button>
+            <button class="btn" id="new-game" onclick="newGame()">New Game</button>
         </div>
         <script src="index.js"></script>
     </body>
